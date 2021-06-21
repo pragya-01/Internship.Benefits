@@ -23,9 +23,7 @@ class App extends Component {
         </div>
         <div class="boxPointsBenefits">
            <div class="pointsBenefits">
-                 <div class="iconsPointsBenefits">
-                        <i class="far fa-hand-point-right"></i>
-                    </div>
+                 <FaRegHandPointRight class="iconsPointsBenefits"/>
                     <div class="rowPointsBenefits">
                           <h2>
                           It is an investement for your business
@@ -37,9 +35,7 @@ class App extends Component {
                     </div>
             </div>
             <div class="pointsBenefits">
-                <div class="iconsPointsBenefits">
-                       <i class="far fa-hand-point-right"></i>
-                   </div>
+                <FaRegHandPointRight class="iconsPointsBenefits"/>
                    <div class="rowPointsBenefits">
                          <h2>
                          Connect, meet and rise together
@@ -51,9 +47,7 @@ class App extends Component {
                    </div>
            </div>
            <div class="pointsBenefits">
-            <div class="iconsPointsBenefits">
-                   <i class="far fa-hand-point-right"></i>
-               </div>
+          <FaRegHandPointRight class="iconsPointsBenefits"/>
                <div class="rowPointsBenefits">
                      <h2>
                      Customized tools for your business management
