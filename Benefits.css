@@ -15,9 +15,10 @@
     padding-left:8%;
     margin-bottom: 2%;
 }
-image{   /*image dimensions=600*400 */
+img{   /*image dimensions=600*400 */
     float:left;
     height: 90%;
+   border-radius:4%;
 }
 /*image css ends here*/
 /*text css starts here*/
