@@ -1,59 +1,59 @@
 import { Component } from "react";
 import { FaRegHandPointRight} from "react-icons/fa";
 import './App.css';
-import imageBenefits from './benefitsImage.jpg';
+import imageBenefits from './benefitsImage';
 
 
 class App extends Component {
   render() {
   return (
-           <div class="benefits">
-       <div class="imageBenefits">
-          <img src="pexels-maxime-francis-2246476.jpg">
+           <div classname="benefits">
+       <div classname="imageBenefits">
+          <img src={imageBenefits}/>
        </div>
-       <div class="textBenefits">
-        <div classnane="titleBenefits">
+       <div classname="textBenefits">
+        <div classname="titleBenefits">
             <h1>
             Going Virtual With Tech
             </h1>
-            <p class="subtextTitleBenefits">
+            <p classname="subtextTitleBenefits">
             Untap your business potential with wide variety of test support 
             suitable for every budget
             </p>
         </div>
-        <div class="boxPointsBenefits">
-           <div class="pointsBenefits">
-                 <FaRegHandPointRight class="iconsPointsBenefits"/>
-                    <div class="rowPointsBenefits">
+        <div classname="boxPointsBenefits">
+           <div classname="pointsBenefits">
+                 <FaRegHandPointRight classname="iconsPointsBenefits"/>
+                    <div classname="rowPointsBenefits">
                           <h2>
                           It is an investement for your business
                           </h2>
                           <p
-                          class="descriptionPointsBenefits">
+                          classname="descriptionPointsBenefits">
                           Use this space to describe this benefit
                         </p>
                     </div>
             </div>
-            <div class="pointsBenefits">
-                <FaRegHandPointRight class="iconsPointsBenefits"/>
-                   <div class="rowPointsBenefits">
+            <div classname="pointsBenefits">
+                <FaRegHandPointRight classname="iconsPointsBenefits"/>
+                   <div classname="rowPointsBenefits">
                          <h2>
                          Connect, meet and rise together
                          </h2>
                          <p
-                         class="descriptionPointsBenefits">
+                         classname="descriptionPointsBenefits">
                          Use this space to describe this benefit
                        </p>
                    </div>
            </div>
-           <div class="pointsBenefits">
-          <FaRegHandPointRight class="iconsPointsBenefits"/>
-               <div class="rowPointsBenefits">
+           <div classname="pointsBenefits">
+          <FaRegHandPointRight classname="iconsPointsBenefits"/>
+               <div classname="rowPointsBenefits">
                      <h2>
                      Customized tools for your business management
                      </h2>
                      <p
-                     class="descriptionPointsBenefits">
+                     classname="descriptionPointsBenefits">
                      Use this space to describe this benefit
                    </p>
                </div>
