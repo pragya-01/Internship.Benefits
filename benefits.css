@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+/*Components' css starts here */
+.benefits{
+   background-color: #0F1D34;
+    color:white;
+    padding:3%;
+}
+/*components css ends here*/
+
+/*image css starts here*/
+.imageBenefits{
+    height:100%;
+    width:40%;
+    float:left;
+    padding-left:8%;
+    margin-bottom: 2%;
+
+    
+}
+img{   /*image dimensions=600*400 */
+    float:left;
+    height: 90%;
+    border-radius:4%;
+}
+/*image css ends here*/
+/*text css starts here*/
+
+h1 {
+    font-family: 'Roboto', serif;
+}
+h2{
+    font-family: 'Roboto', serif;
+ }
+p{
+    font-family: 'Roboto', serif;
+}
+.textbenefits{
+    float:right;
+    padding: 1%;
+}
+/*title css starts here*/
+.subtextTitleBenefits{
+    font-style: italic;
+}
+/*title css ends here*/
+
+/*icons css starts here*/
+
+.iconsPointsBenefits{
+    display: flexbox;
+    padding-right: 10%;
+    padding-top: 5%;
+    vertical-align: middle;
+    font-size:150%;
+    color:white;
+}
+/*icons css ends here*/
+
+/*points css starts here */
+.boxPointsBenefits{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+.pointsBenefits{
+    padding-bottom:2%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.rowPointsBenefits
+{
+    display: flexbox;
+    vertical-align:top;
+}
+
+/*points css ends here*/
+/*text css ends here*/
